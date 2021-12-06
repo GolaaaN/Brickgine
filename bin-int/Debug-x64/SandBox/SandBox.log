@@ -1,0 +1,5 @@
+﻿  SandBox.cpp
+C:\Users\ilaig\source\repos\Brickgine\Brick Game Engine\src\brick\Application.cpp(6,20): warning C4273: 'brick::Application::run': inconsistent dll linkage
+C:\Users\ilaig\source\repos\Brickgine\Brick Game Engine\src\brick\Application.h(10,8): message : see previous definition of 'run'
+     Creating library C:\Users\ilaig\source\repos\Brickgine\bin\Debug-x64\SandBox\SandBox.lib and object C:\Users\ilaig\source\repos\Brickgine\bin\Debug-x64\SandBox\SandBox.exp
+  SandBox.vcxproj -> C:\Users\ilaig\source\repos\Brickgine\bin\Debug-x64\SandBox\SandBox.exe
