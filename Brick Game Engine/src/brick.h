@@ -5,6 +5,7 @@
 #include "brick/Application.h"
 #include "brick/Application.cpp"
 #include "brick/Core.h"
+#include "brick/Log.h"
 
 // ---Entry Point-------->
 #include "brick/EntryPoint.h"

@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\brick\Log.h" />
     <ClInclude Include="src\brick\Application.h" />
     <ClInclude Include="src\brick\Core.h" />
     <ClInclude Include="src\brick.h" />
     <ClInclude Include="src\brick\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\brick\Log.cpp" />
     <ClCompile Include="src\brick\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -68,6 +70,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>BRICK_PLATFORM_WINDOWS;BRICK_BUILD_DLL;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Brick Game Engine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -82,6 +85,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>BRICK_PLATFORM_WINDOWS;BRICK_BUILD_DLL;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Brick Game Engine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
