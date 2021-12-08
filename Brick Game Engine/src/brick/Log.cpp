@@ -16,4 +16,5 @@ namespace brick {
 		s_ClientLogger->set_level(spdlog::level::trace);
 	}
 
+	
 }
