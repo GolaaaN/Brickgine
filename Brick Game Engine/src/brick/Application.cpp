@@ -4,7 +4,7 @@
 namespace brick {
 
 	void Application::run() {
-		printf("Hey boy I'm running");
+		printf("Hey boy I'm runningdfdf");
 		while (true) {}
 	}
 

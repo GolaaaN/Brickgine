@@ -36,3 +36,4 @@ namespace brick {
 #define BRICK_CLIENT_TRACE(...) ::brick::Log::GetClientLogger()->trace(__VA_ARGS__)
 
 
+

@@ -1,5 +1,6 @@
 #pragma once
 
+
 #include "Core.h"
 
 namespace brick {
@@ -12,5 +13,6 @@ namespace brick {
 
 	//To be defined in the client
 	Application* CreateApplication();
+	
 
 }
